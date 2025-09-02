@@ -22,3 +22,33 @@ lengthSlider.addEventListener("input", () => {
 btnGenerate.addEventListener("click", () => {
     passwordInput.value = createPassword();
 });
+btnCopy.addEventListener("click", () => {
+    if (passwordInput.value) {
+        navigator.clipboard.writeText(passwordInput.value);
+        alert("✅ Password copied to clipboard!");
+    } else {
+        alert("⚠️ No password to copy!");
+    }
+});
+function createPassword() {
+    let selectedChars = "";
+    let password = "";
+
+    if (optLower.checked) selectedChars += chars.lower;
+    if (optUpper.checked) selectedChars += chars.upper;
+    if (optNumber.checked) selectedChars += chars.nums;
+    if (optSymbol.checked) selectedChars += chars.syms;
+
+    let passLength = parseInt(lengthSlider.value);
+
+    if (selectedChars === "") {
+        return "⚠️ Select at least one option!";
+    }
+
+    for (let i = 0; i < passLength; i++) {
+        let randomIndex = Math.floor(Math.random() * selectedChars.length);
+        password += selectedChars[randomIndex];
+    }
+
+    return password;
+}
