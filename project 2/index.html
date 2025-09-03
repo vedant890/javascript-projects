@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QR Code Generator - HTML, CSS, JS</title>
-    <script src="script.js"></script>
+    <script src="script.js"defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <h1>QR code Generator</h1>
-        <input type="text" placeholder="enter a Valid Url" required>
-        <button type="submit"></button>
+        <input type="text" id="userInput" placeholder="enter a Valid Url" required>
+        <button onclick=generateqr()>submit</button>
+        <div class="imgsrc">
+            <img id="imagesrc" alt="" srcset="">
+        </div>
     </div>
 </body>
 </html>
