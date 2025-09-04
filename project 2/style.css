@@ -1,34 +1,122 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
-body{
-    min-height: 100vh;
-    background: black;
+
+body {
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+    background-size: 400% 400%;
+    animation: bgAnimation 12s ease infinite;
 }
-.container{
+
+/* Background animation */
+@keyframes bgAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.container {
+    background-color: #2c3e50;   /* Dark blue-gray background */
+    padding: 30px;
     width: 400px;
-    padding: 25px 35px;
-    position: absolute;
-background: white;
-border-radius: 10px;
-}
-.container p{
-    font-weight: 600;
-    font-size: 15px;
-    margin-bottom: 8px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
-.container input{
+.container h1 {
+    font-size: 26px;
+    color: #f1f1f1;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Input */
+.container input {
     width: 100%;
-    height: 50px;
-    border: 1px;
-    outline: ;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid #3498db;
+}
 
+.container input:focus {
+    border-color: #fff;
+    box-shadow: 0 0 8px #fff;
+}
+
+/* Button */
+.container button {
+    background-color: #3498db; /* Blue button */
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 15px;
+}
+
+.container button:hover {
+    background-color: #1abc9c; /* Green hover */
+}
+
+/* QR image */
+.imgsrc {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.imgsrc img {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 20px;
+    border: 0.5px solid #7fb7c9;
+    border-radius: 8px;
+    background: #fff;
+}
+
+/* QR Body */
+.qr-body {
+    display: grid;
+    place-items: center;
+    margin-bottom: 15px;
+}
+
+/* Footer buttons */
+.qr-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.qr-footer a {
+    flex: 1;
+    text-align: center;
+    margin: 0 5px;
+    background-color: #e67e22; /* Orange button */
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 0;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.qr-footer a:hover {
+    background-color: #d35400; /* Darker orange */
 }
