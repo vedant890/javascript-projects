@@ -9,13 +9,13 @@ Each project is inside its own folder, with a README and (when available) a live
 
    * Generates secure, customizable random passwords.
    * 👉 [Live Demo](https://javascript-projects-random-pass-generator.vercel.app/)
-   * 📁 [Source Code](./project 1)
+   * 📁 [Source Code](./project1)
 
 2. 🧮 **QR Generator App**
 
    * Perform basic arithmetic operations with a clean UI.
    * 👉 [Live Demo](https://javascript-projects-qr-generator.vercel.app/)
-   * 📁 [Source Code](./project 2)
+   * 📁 [Source Code](./project2)
 
 3. ✅ **Todo List App**
 
