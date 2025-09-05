@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quiz-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 500px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  animation: fadeIn 0.6s ease;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#timer {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #ff4444;
+}
+
+.question {
+  display: none;
+  animation: slideIn 0.4s ease;
+}
+
+.question.active {
+  display: block;
+}
+
+label {
+  display: block;
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+label:hover {
+  background: #f0f8ff;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 15px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+#prevBtn {
+  background: #ccc;
+}
+
+#nextBtn {
+  background: #4caf50;
+  color: white;
+}
+
+#submitBtn {
+  background: #2196f3;
+  color: white;
+  display: none;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#result {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(20px); }
+  to { opacity: 1; transform: translateX(0); }
+}

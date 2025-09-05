@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>JavaScript Quiz</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <div class="quiz-container">
+    <h2>JavaScript Quiz</h2>
+    <div id="timer">5:00</div>
+    <form id="quizForm">
+      <div class="question active">
+        <p>1. Which company developed JavaScript?</p>
+        <label><input type="radio" name="q1" value="wrong"> Microsoft</label>
+        <label><input type="radio" name="q1" value="correct"> Netscape</label>
+        <label><input type="radio" name="q1" value="wrong"> Google</label>
+      </div>
+
+      <div class="question">
+        <p>2. Which symbol is used for single-line comments in JavaScript?</p>
+        <label><input type="radio" name="q2" value="wrong">&lt;!-- --&gt;</label>
+        <label><input type="radio" name="q2" value="correct">//</label>
+        <label><input type="radio" name="q2" value="wrong">/* */</label>
+      </div>
+
+      <div class="question">
+        <p>3. How do you declare a variable in JavaScript?</p>
+        <label><input type="radio" name="q3" value="correct"> var name;</label>
+        <label><input type="radio" name="q3" value="wrong"> int name;</label>
+        <label><input type="radio" name="q3" value="wrong"> declare name;</label>
+      </div>
+
+      <div class="question">
+        <p>4. Which keyword is used to define a constant in JavaScript?</p>
+        <label><input type="radio" name="q4" value="wrong"> var</label>
+        <label><input type="radio" name="q4" value="correct"> const</label>
+        <label><input type="radio" name="q4" value="wrong"> let</label>
+      </div>
+
+      <div class="question">
+        <p>5. What is the output of: <code>typeof([])</code> ?</p>
+        <label><input type="radio" name="q5" value="wrong"> array</label>
+        <label><input type="radio" name="q5" value="correct"> object</label>
+        <label><input type="radio" name="q5" value="wrong"> list</label>
+      </div>
+
+      <div class="buttons">
+        <button type="button" id="prevBtn">Previous</button>
+        <button type="button" id="nextBtn">Next</button>
+        <button type="submit" id="submitBtn">Submit</button>
+      </div>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
