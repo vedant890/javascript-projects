@@ -13,14 +13,14 @@ Each project is inside its own folder, with a README and (when available) a live
 
 2. 🧮 **QR Generator App**
 
-   * Perform basic arithmetic operations with a clean UI.
+   *Generate QR Based On User Input.
    * 👉 [Live Demo](https://javascript-projects-qr-generator.vercel.app/)
    * 📁 [Source Code](./project2)
 
-3. ✅ **Todo List App**
-
-   * Add, delete, and mark tasks as complete (with local storage support).
-   * 📁 [Source Code](./todo-list)
+3. ✅ **Quiz App**
+   * Quiz App With Clean UI.
+   *  👉 [Live Demo](https://javascript-projects-quiz-app.vercel.app/)
+   * 📁 [Source Code](./project3)
 
 4. 💬 **Random Quote Generator**
 
