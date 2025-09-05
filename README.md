@@ -15,7 +15,7 @@ Each project is inside its own folder, with a README and (when available) a live
 
    *Generate QR Based On User Input.
    * 👉 [Live Demo](https://javascript-projects-qr-generator.vercel.app/)
-   * 📁 [Source Code](./project2)
+   * 📁 [Source Code](https://github.com/vedant890/javascript-projects/tree/main/project%202)
 
 3. ✅ **Quiz App**
    * Quiz App With Clean UI.
