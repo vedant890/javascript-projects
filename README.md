@@ -9,7 +9,7 @@ Each project is inside its own folder, with a README and (when available) a live
 
    * Generates secure, customizable random passwords.
    * 👉 [Live Demo](https://javascript-projects-random-pass-generator.vercel.app/)
-   * 📁 [Source Code](./project1)
+   * 📁 [Source Code](https://github.com/vedant890/javascript-projects/tree/main/Project%201)
 
 2. 🧮 **QR Generator App**
 
