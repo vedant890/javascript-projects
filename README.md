@@ -9,12 +9,13 @@ Each project is inside its own folder, with a README and (when available) a live
 
    * Generates secure, customizable random passwords.
    * 👉 [Live Demo](https://javascript-projects-random-pass-generator.vercel.app/)
-   * 📁 [Source Code](./project 1)
+   * 📁 [Source Code](./project1)
 
-2. 🧮 **Calculator App**
+2. 🧮 **QR Generator App**
 
    * Perform basic arithmetic operations with a clean UI.
-   * 📁 [Source Code](./calculator)
+   * 👉 [Live Demo](https://javascript-projects-qr-generator.vercel.app/)
+   * 📁 [Source Code](./project2)
 
 3. ✅ **Todo List App**
 
@@ -46,7 +47,7 @@ Each project is inside its own folder, with a README and (when available) a live
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/javascript-projects.git
+   git clone https://github.com/vedant890/javascript-projects.git
    ```
 2. Navigate into a project folder:
 
@@ -56,13 +57,3 @@ Each project is inside its own folder, with a README and (when available) a live
 3. Open `index.html` in your browser.
 
 ---
-
-## 🌐 Live Demos
-
-I’ll be hosting each project as I complete them. Currently live:
-
-* [Password Generator](https://javascript-projects-random-pass-generator.vercel.app/)
-
----
-
-✨ More projects will be added soon. Stay tuned!
