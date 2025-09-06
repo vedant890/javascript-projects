@@ -5,7 +5,7 @@ const nextBtn = document.getElementById("nextBtn");
 const submitBtn = document.getElementById("submitBtn");
 const result = document.getElementById("result");
 const timerDisplay = document.getElementById("timer");
-let timeLeft = 15 * 60; // 15 minutes in seconds
+let timeLeft = 5 * 60;
 
 function showQuestion(index) {
   questions.forEach((q, i) => {
