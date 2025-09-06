@@ -22,18 +22,6 @@ Each project is inside its own folder, with a README and (when available) a live
    *  👉 [Live Demo](https://javascript-projects-quiz-app.vercel.app/)
    * 📁 [Source Code](./project3)
 
-4. 💬 **Random Quote Generator**
-
-   * Display random motivational quotes at the click of a button.
-   * 📁 [Source Code](./quote-generator)
-
-5. 🌦️ **Weather App**
-
-   * Fetch and display live weather data using a public API.
-   * 📁 [Source Code](./weather-app)
-
----
-
 ## 🎯 Purpose
 
 * Strengthen my understanding of **JavaScript basics**
