@@ -26,8 +26,6 @@ Each project is inside its own folder, with a README and (when available) a live
 
 * Strengthen my understanding of **JavaScript basics**
 * Practice **DOM manipulation, events, and API calls**
-* Build a small **portfolio of web apps** to showcase on GitHub
-
 ---
 
 ## 🚀 How to Run Locally
